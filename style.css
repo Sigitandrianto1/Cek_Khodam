@@ -21,7 +21,9 @@
 /* navbar */
 
 nav {
-    position: fixed;
+      width: 100%;
+    position: fixed !important; 
+    z-index: 2;
     background-color: #3f03cc;
     transition: background-color 0.5s ease-in-out;
 }
