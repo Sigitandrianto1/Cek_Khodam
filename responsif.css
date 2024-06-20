@@ -1,0 +1,72 @@
+/* responsife mobile */
+@media (max-width: 768px) {
+    div#judul {order: 3;}
+    div#img {order: 1;}
+
+
+    .body {
+        height: auto;
+    }
+
+    nav .navbar-brand {
+        font-size: 20px;
+    }
+
+    .content {
+        margin-top: 50px;
+        flex-direction: column;
+        height: 100vh; /* Menghapus 'height: auto;' yang duplikat */
+    }
+
+
+    .content h2 {
+        font-size: 50px;
+        margin-top: 30px;
+    }
+
+    .content .judul p {
+        margin-top: 10px;
+    }
+
+    .content .button {
+        display: flex;
+    }
+
+    .content .judul {
+        order: 2;
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .content .kol_2 img {
+        margin-top: 70px;
+        margin-left: 0;
+        width: 250px;
+        order: -1;
+    }
+
+
+  
+
+    svg {
+        margin-top: 0;
+    }
+    
+    #description .controls {
+        display: block;
+        margin-right: auto; /* Menggabungkan dua aturan menjadi satu */
+    }
+
+    .paling {
+        font-size: 40px;
+        padding-bottom: 0;
+    }
+
+    .carausel {
+        margin-top: 90px;
+    }
+
+    .futer svg {
+        margin-bottom: -100px;
+    }
+}

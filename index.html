@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Cek_KhodamMu</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsif.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body class="body">
+    <audio controls autoplay>
+      <source src="BACKSOUND/backsoound.mpeg" type="audio/mpeg" />
+      Your browser does not support the audio element.
+    </audio>
+
+    <!-- navbar -->
+    <nav class="navbar fixed-top navbar-expand-lg px-5 navbar-dark">
+      <div class="container-fluid px-2 justify-content-between">
+        <a class="navbar-brand" href="#">
+          <img
+            src="/IMG/LOGO_POCONG.png"
+            alt="Logo"
+            width="30"
+            height="24"
+            class="d-inline-block align-text-top"
+          />
+          KHODAM KU
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#description">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#fitur">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact Person</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- end navbar -->
+
+    <!-- content -->
+    <section id="home">
+      <div class="back">
+        <div class="content">
+          <div class="row text-center px-5">
+            <div class="col text-start" id="judul">
+              <div class="judul">
+                <h2 data-aos="fade-down" data-aos-duration="1000" class="">
+                  KhodamKu!!
+                </h2>
+                <p class="fs-6" data-aos="fade-down" data-aos-duration="1000">
+                  "Apapun yang tidak terlihat, mungkin memiliki keberadaan yang
+                  lebih dalam. Di balik tirai ketidaknyataan, mungkin ada
+                  rahasia, makna, dan keajaiban yang menanti kita.
+                </p>
+                <div class="d-grid button gap-2 d-block d-md-block">
+                  <a href="Khodam/cek_khodam.html">
+                    <button class="btn btn-warning btn_2" type="button">
+                      Cek Khodam
+                    </button>
+                  </a>
+                  <a href="/Khodam/cek_jodoh.html">
+                    <button class="btn btn-primary btn_1" type="button">
+                      Cek Jodoh
+                    </button>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col kol_2" id="img">
+              <div class="">
+                <img src="/IMg/logo.png" alt="" srcset="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <svg class="" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#000000"
+          fill-opacity="1"
+          d="M0,288L16,245.3C32,203,64,117,96,85.3C128,53,160,75,192,117.3C224,160,256,224,288,261.3C320,299,352,309,384,282.7C416,256,448,192,480,186.7C512,181,544,235,576,218.7C608,203,640,117,672,106.7C704,96,736,160,768,160C800,160,832,96,864,112C896,128,928,224,960,245.3C992,267,1024,213,1056,197.3C1088,181,1120,203,1152,186.7C1184,171,1216,117,1248,80C1280,43,1312,21,1344,58.7C1376,96,1408,192,1424,240L1440,288L1440,0L1424,0C1408,0,1376,0,1344,0C1312,0,1280,0,1248,0C1216,0,1184,0,1152,0C1120,0,1088,0,1056,0C1024,0,992,0,960,0C928,0,896,0,864,0C832,0,800,0,768,0C736,0,704,0,672,0C640,0,608,0,576,0C544,0,512,0,480,0C448,0,416,0,384,0C352,0,320,0,288,0C256,0,224,0,192,0C160,0,128,0,96,0C64,0,32,0,16,0L0,0Z"
+        ></path>
+      </svg>
+    </section>
+
+    <!-- deskripsi singkat -->
+    <section id="description">
+      <div class="container mb-md-5">
+        <div data-aos="fade-up" data-aos-duration="1500" class="row">
+          <div class="col-12 col-md-6">
+            <div class="video-container">
+              <video
+                id="video"
+                width="100%"
+                controls
+                autoplay
+                muted
+                class="rounded"
+              >
+                <source src="vidio/Bantal.mp4" type="video/mp4" />
+                Browser Anda tidak mendukung pemutar video.
+              </video>
+              <div
+                class="controls d-flex justify-content-center justify-content-md-start mt-2"
+              >
+                <button id="play-pause" class="btn btn-danger me-2">
+                  Play
+                </button>
+                <button id="mute" class="btn btn-danger me-2">Mute</button>
+                <button id="full-screen" class="btn btn-primary">
+                  Full Screen
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6">
+            <div class="text mt-md-5">
+              <h3>Periksa Semua tentang diri anda</h3>
+              <p>
+                KhodamKu adalah website eksklusif yang dirancang untuk mengukur
+                dan menantang batas kekuatan Anda. Dengan teknologi terdepan dan
+                analisis yang akurat, website ini membawa Anda lebih dekat pada
+                pencapaian puncak potensi khodam Anda. Semua hak telah
+                dilindungi untuk memastikan bahwa kekuatan Anda, adalah kekuatan
+                kami.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end deskripsi singkat  -->
+
+    <!-- end content -->
+    <section id="fitur">
+      <div class="container d-flex">
+        <div data-aos="fade-up" class="row mx-4 justify-content-center">
+          <!-- judul deskiripsi -->
+          <figure class="text-center">
+            <blocEkquote class="blockquote">
+              <h1>Esuk Turu Awan Ngopi Bengi Cek Khodam</h1>
+            </blocEkquote>
+            <br />
+            <figcaption class="blockquote-footer">
+              Khodammu opo cah?
+              <cite title="Source Title">Nek aku stik Beras Ketan</cite>
+            </figcaption>
+          </figure>
+
+          <!-- judul deskiripsi -->
+          <!-- colom 4 buah -->
+
+          <div class="col-12 col-md-6 text-light">
+            <div class="card card 1 mb-3">
+              <div class="row g-0 text-center text-md-start">
+                <div class="col-md-4">
+                  <img
+                    src="IMG/cek_khodam.png"
+                    class="img-fluid rounded-start mt-3 ms-md-4"
+                    alt="..."
+                  />
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h3 class="card-title text-warning">CEK KHODAM</h3>
+                    <p class="card-text">
+                      Penasaran tentang siapa sosok yang
+                      mendampingimu?,Temukanlah potensi dan kekuatanmu dengan
+                      melakukan penerawangan khodam secara instan,mudah dan aman
+                    </p>
+                    <div class="d-md-block">
+                      <a href="Khodam/cek_khodam.html">
+                        <button class="btn btn-warning my-1" type="button">
+                          Gass Cek
+                        </button>
+                      </a>
+                      <button class="btn btn-warning my-1" type="button">
+                        Baca Persyaratan
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6 text-light">
+            <div class="card card 1 mb-3">
+              <div class="row g-0 text-center text-md-start">
+                <div class="col-md-4">
+                  <img
+                    src="IMG/jodoh.png"
+                    class="img-fluid rounded-start mt-3 ms-md-3"
+                    alt="..."
+                  />
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h3 class="card-title text-warning">
+                      CEK Kecocokan Pasangan
+                    </h3>
+                    <p class="card-text">
+                      ya Allah jika menang gadis itu baik untuk saya dekatkanlah
+                      kepadaku. tapi jika memang tidak baik buatku, tolong
+                      pertimbangkan lagi ya Allah.
+                      <span class="text-primary"><br />"ABU NAWAS"</span>
+                    </p>
+                    <div class="d-md-block">
+                      <a href="/Khodam/cek_jodoh.html">
+                        <button class="btn btn-warning my-1" type="button">
+                          Gass Cek
+                        </button>
+                      </a>
+                      <button class="btn btn-warning my-1" type="button">
+                        Baca Persyaratan
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6 text-light">
+            <div class="card card 1 mb-3">
+              <div class="row g-0 text-center text-md-start">
+                <div class="col-md-4">
+                  <img
+                    src="IMG/tukar_tambha.png"
+                    class="img-fluid rounded-start mt-3 ms-md-3"
+                    alt="..."
+                  />
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h3 class="card-title text-warning">Cek Aura</h3>
+                    <p class="card-text">
+                      Setiap Orang Memiliki Jenis warna aura yang berbeda bedan dan sangat menarik , “Biar kita cek aura, siapa tahu ada warna-warna indah di dalam hati kita.”
+                    </p>
+                    <div class="d-md-block">
+                      <a href="/Khodam/cek_aura.html">
+                      <button class="btn btn-warning my-1" type="button">
+                        Gass Cek
+                      </button> </a>
+                      <button class="btn btn-warning my-1" type="button">
+                        Baca Persyaratan
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6 text-light">
+            <div class="card card 1 mb-3">
+              <div class="row g-0 text-center text-md-start">
+                <div class="col-md-4">
+                  <img
+                    src="IMG/aura2.png"
+                    class="img-fluid rounded-start mt-3 ms-md-3"
+                    alt="..."
+                  />
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h3 class="card-title text-warning">CEK JEROAN</h3>
+                    <p class="card-text">
+                      Telnologi pengecekan kesehatan paling muktahir,
+                      menggunakan perantara terawangan 100% akurat tanpa resiko,
+                      Ayooo Cek Jeroanmu Sekarang
+                    </p>
+                    <div class="d-md-block">
+                      <a href="/Khodam/cek_jeroan.html">
+                        <button class="btn btn-warning my-1" type="button">
+                          Gass Cek
+                        </button>
+                      </a>
+                      <button class="btn btn-warning my-1" type="button">
+                        Baca Persyaratan
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- colom 4 buah -->
+
+    <h1 class="paling text-center p-0 p-md-5 mt-3 mt-md-0">
+      Paling Banyak Dicari
+    </h1>
+    <!-- carausel -->
+    <section id="carausel" class="mb-4">
+      <!-- <h1 class="text-center mt-5" >REKOMENDASI UNTUK DIMILIKI</h1> -->
+      <div
+        id="carouselExampleInterval"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="IMG/CARAUSEL3.jpg" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="IMG/CARAUSEL1.jpg" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="IMG/CARAUSEL2.jpg" class="d-block w-100" alt="..." />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleInterval"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleInterval"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- Remove the container if you want to extend the Footer to full width. -->
+
+    <section id="contact">
+      <div class="futer container-fluid my-5">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+          <path
+            fill=" #740b91"
+            fill-opacity="1"
+            d="M0,160L48,154.7C96,149,192,139,288,117.3C384,96,480,64,576,90.7C672,117,768,203,864,218.7C960,235,1056,181,1152,154.7C1248,128,1344,128,1392,128L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+          ></path>
+        </svg>
+        <footer class="text-light text-center">
+          <!-- Grid container -->
+          <div class="container p-4 pb-0">
+            <!-- Section: Form -->
+            <section class="">
+              <form action="mailto:sigitandarianto96@gmail.com" method="post" enctype="text/plain">
+                <!--Grid row-->
+                <div class="row d-flex justify-content-center">
+                  <!--Grid column-->
+                  <div class="col-auto">
+                    <p class="pt-2">
+                      <strong>Berikan Masukan</strong>
+                    </p>
+                  </div>
+                  <!--Grid column-->
+
+                  <!--Grid column-->
+                  <div class="col-md-5 col-12">
+                    <!-- Email input -->
+                    <div class="form-outline mb-4">
+                      <input
+                        type="text"
+                        id="form5Example2"
+                        class="form-control"
+                        name="Email"
+                        placeholder="Kirim Pesan/Masukan"
+                      />
+                    </div>
+                  </div>
+                  <!--Grid column-->
+
+                  <!--Grid column-->
+                  <div class="col-auto">
+                    <!-- Submit button -->
+                    <button type="submit" class="btn btn-primary mb-4">
+                      Kirim
+                    </button>
+                  </div>
+                  <!--Grid column-->
+                </div>
+                <!--Grid row-->
+              </form>
+            </section>
+            <!-- Section: Form -->
+          </div>
+          <!-- Grid container -->
+
+          <!-- Copyright -->
+          <div
+            class="text-center p-3"
+            style="background-color: rgba(0, 0, 0, 0.2)"
+          >
+            2024
+            <a class="text-light" href="https://mdbootstrap.com/"
+              >Sigit Andrianto</a
+            >
+          </div>
+          <!-- Copyright -->
+        </footer>
+      </div>
+    </section>
+    <!-- End of .container -->
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="script.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

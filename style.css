@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Staatliches&display=swap');
+
+
+* {
+    font-family: "Poppins", sans-serif;
+    cursor: url('IMG/cursor.png'), auto !important;
+}
+
+.body {
+    background-color: #cecece;
+    width: 100%;
+    height: 100%;
+}
+
+/* navbar */
+
+nav {
+    background-color: #3f03cc;
+    transition: background-color 0.5s ease-in-out;
+}
+
+nav:hover {
+    background-color: #2d0192;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.5);
+}
+
+nav .navbar-brand {
+    font-family: "Staatliches", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #ffffff;
+    font-size: 25px;
+}
+
+.content {
+    display: flex;
+    width: 100%;
+    height: 90vh;
+    background-color: #030d24;
+    background-image: url('IMG/BACKGROUND2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.content .row {
+    align-items: center;
+    color: #ffffff;
+}
+
+.content .judul {
+    margin-top: -50px;
+    margin-left: 70px;
+}
+
+.content h2 {
+    font-family: "Protest Riot", sans-serif;
+    font-size: 100px;
+}
+
+.content button {
+    border: 3px solid transparent;
+    border-radius: 6px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.content .btn_1:hover, .content .btn_2:hover {
+    background-color: transparent;
+    border: 3px solid #ffffff;
+    color: #ffffff;
+}
+
+audio {
+    display: none;
+}
+
+.content .kol_2 img {
+    justify-content: center;
+    animation: naik-turun 3s ease-in-out infinite;
+    margin-left: 100px;
+    margin-top: 80px;
+    width: 450px;
+    order: 2;
+}
+
+#description {
+    height: auto;
+    width: 100%;
+    background-color: #ffffff;
+    margin-top: 70px;
+    padding: 40px 0;
+}
+
+#description h3 {
+    font-size: 70px;
+    font-weight: 600;
+}
+
+#description .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#description .controls {
+    margin-right: 200px;    
+}
+
+@keyframes naik-turun {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+}
+
+svg {
+    margin-top: -40px;
+}
+
+div#judul {order: 1;}
+div#img {order: 2;}
+
+#fitur {
+    display: flex;
+    margin-top: 80px;
+}
+
+#fitur figure h1 { 
+    color: #031338;
+    font-family: "Protest Riot", sans-serif;
+    font-size: 50px;
+}
+
+#fitur figcaption {
+    font-size: 20px;
+}
+
+#fitur .card {
+
+    margin-top: 10px;
+    background-color: #740b91;
+    transition: background-color 0.3s ease-in-out;
+    box-shadow: 12px 12px 2px 1px rgba(99, 99, 99, 0.2);
+}
+
+#fitur .card h3 {
+    font-family: "Protest Riot", sans-serif;
+    font-size: 30px;
+}
+
+#fitur .card button {
+    border: 3px solid transparent;
+    margin-top: -10px;
+    border-radius: 6px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+#fitur .card:hover {
+    background-color: #1d0025;
+}
+
+#fitur .card button:hover {
+    color: #ffffff;
+    background-color: transparent;
+    border: 3px solid #ffd000;
+}
+
+.paling {
+    font-family: "Protest Riot", sans-serif;
+    font-size: 60px;
+    color: #030d24;
+    padding-bottom: 15px;
+}
+
+#carausel .carausel {
+    border-radius: 100px;
+}
+
+footer {
+    margin-top: 60px;
+    background-color: #740b91;
+}
+
+.futer svg {
+    margin-bottom: -150px;
+}
