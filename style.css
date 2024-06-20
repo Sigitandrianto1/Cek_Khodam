@@ -12,11 +12,16 @@
     background-color: #cecece;
     width: 100%;
     height: 100%;
+    display: block;
+
 }
+
+
 
 /* navbar */
 
 nav {
+    position: fixed;
     background-color: #3f03cc;
     transition: background-color 0.5s ease-in-out;
 }
