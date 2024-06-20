@@ -142,7 +142,7 @@ div#img {order: 2;}
 }
 
 #fitur .card {
-
+    width: auto;
     margin-top: 10px;
     background-color: #740b91;
     transition: background-color 0.3s ease-in-out;
