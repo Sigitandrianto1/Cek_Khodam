@@ -108,11 +108,6 @@
 
         const acak_persentase =
           persentase[Math.floor(Math.random() * persentase.length)];
-        if (username === "sigit" && yourname === "eka") {
-            const resultDiv = document.getElementById("result");
-          resultDiv.textContent = `hai '${username}', anda memiliki kecocokan dengan ${yourname}' sebesar 100% `;
-          resultDiv.classList.remove("d-none");
-        }else {
           const resultDiv = document.getElementById("result");
           resultDiv.textContent = `hai '${username}', anda memiliki kecocokan dengan ${yourname}' sebesar ${acak_persentase}% `;
           resultDiv.classList.remove("d-none");
